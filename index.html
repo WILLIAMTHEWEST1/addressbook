@@ -33,7 +33,7 @@
     <body class="h-100">
         <main class="container mt-5">
             <div class="shadow-lg bg-light border border-2 border-light">
-                <form netlify name="addressbook2">
+                <form netlify name="addressbook">
                     <div class="row p-2 g-3">
                         <!--image column-->
                         <div class="col-12 col-md-4">
@@ -44,41 +44,42 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <label for="firstName" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="First" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First" required>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <label for="lastName" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Last" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <label for="email" class="form-label">Email</label>
-                                    <input type="text" class="form-control" id="email" placeholder="Email" required>
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="col-12 col-md-6">
                                     <label for="Phone" class="form-label">Phone Number</label>
-                                    <input type="text" class="form-control" id="Phone" placeholder="(555) 555-5555" required>
+                                    <input type="text" class="form-control" id="Phone" name="Phone" placeholder="(555) 555-5555"
+                                        required>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="col-12">
                                     <label for=" address1" class="form-label">Address 1</label>
-                                    <input type="text" class="form-control" id="address1" placeholder="Street Address"
+                                    <input type="text" class="form-control" id="address1" name="address1" placeholder="Street Address"
                                         required>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <div class="col-12">
                                     <label for=" address2" class="form-label">Address 2</label>
-                                    <input type="text" class="form-control" id="address2"
+                                    <input type="text" class="form-control" id="address2" name="address2"
                                         placeholder="Apt Number or Ste">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-4">
                                     <label for="City" class="form-label">City</label>
-                                    <input type="text" class="form-control" id="City" placeholder="City" required>
+                                    <input type="text" class="form-control" id="City" name="City" placeholder="City" required>
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <label for="state" class="form-label">State</label>
@@ -138,8 +139,8 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-md-4">
-                                    <label for="City" class="form-label">City</label>
-                                    <input type="text" class="form-control" id="City" placeholder="City" required>
+                                    <label for="Zip" class="form-label">Zip Code</label>
+                                    <input type="text" class="form-control" id="Zip" name="zip" placeholder="Zip" required>
                                 </div>
                             </div>
                             <div class="form-check">
