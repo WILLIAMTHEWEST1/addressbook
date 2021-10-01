@@ -1,0 +1,13 @@
+.head {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body {
+    background-position: fixed;
+    background-size: cover;
+    background-color: rgb(146, 167, 206);
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgb(141, 174, 184) 0%, rgb(27, 114, 155) 90%);
+    font-family: 'Oswald', sans-serif;
+
+}
